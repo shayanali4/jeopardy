@@ -39,6 +39,8 @@ if (app.get('env') === 'development') {
 // production only
 if (app.get('env') === 'production') {
   // TODO
+  app.use(errorHandler());
+
 };
 
 
